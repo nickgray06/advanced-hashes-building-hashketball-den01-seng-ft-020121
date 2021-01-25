@@ -100,7 +100,7 @@ def game_hash
       }
       
     }
+  end
   
-  }
 end
 game_hash
