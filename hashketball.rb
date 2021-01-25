@@ -6,7 +6,8 @@ def game_hash
       team_name: "Brooklyn Nets",
       colors: ["Black", "White"],
       players: [
-        "Alan Anderson" => {
+         {
+          player_name: "Alan Anderson",
           number: 0, 
           shoe: 16,
           points: 22,
@@ -16,7 +17,8 @@ def game_hash
           blocks: 1,
           slam_dunks: 1
         },
-        "Reggie Evans" => {
+        { 
+          player_name: "Reggie Evans",
           number: 30,
           shoe: 14,
           points: 12,
@@ -26,7 +28,8 @@ def game_hash
           blocks: 12,
           slam_dunks: 7
         },
-        "Brook Lopez" => {
+        {
+          player_name: "Brook Lopez",
           number: 11,
           shoe: 17,
           points: 17,
@@ -36,7 +39,8 @@ def game_hash
           blocks: 1,
           slam_dunks: 15
         },
-        "Mason Plumlee" => {
+        {
+          player_name: "Mason Plumlee",
           number: 1,
           shoe: 19,
           points: 26,
@@ -46,7 +50,8 @@ def game_hash
           blocks: 8,
           slam_dunks: 5 
         },
-        "Jason Terry" => {
+        {
+          player_name: "Jason Terry",
           number: 31,
           shoe: 15,
           points: 19,
@@ -65,7 +70,8 @@ def game_hash
       team_name: "Charlotte Hornets",
       colors: ["Turquoise", "Purple"],
       players: [
-        "Jeff Adrien" => {
+        {
+          player_name: "Jeff Adrien",
           number: 4, 
           shoe: 18,
           points: 10,
@@ -75,7 +81,8 @@ def game_hash
           blocks: 7,
           slam_dunks: 2
         },
-        "Bismack Biyombo" => {
+        {
+          player_name: "Bismack Biyombo",
           number: 0,
           shoe: 16,
           points: 12,
@@ -85,7 +92,8 @@ def game_hash
           blocks: 15,
           slam_dunks: 10 
         },
-        "DeSagna Diop" => {
+        {
+          player_name: "DeSagna Diop",
           number: 2,
           shoe: 14,
           points: 24,
@@ -95,7 +103,8 @@ def game_hash
           blocks: 5,
           slam_dunks: 5
         },
-        "Ben Gordon" => {
+        {
+          player_name: "Ben Gordon",
           number: 8,
           shoe: 15,
           points: 33,
@@ -105,7 +114,8 @@ def game_hash
           blocks: 1,
           slam_dunks: 0 
         },
-        "Kimba Walker" => {
+        {
+          player_name: "Kimba Walker",
           number: 33,
           shoe: 15,
           points: 6, 
